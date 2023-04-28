@@ -1,6 +1,6 @@
-import { card } from "../assets";
-import styles, { layout } from "../style";
-import Button from "./Button";
+import { card } from '../assets';
+import styles, { layout } from '../style';
+import Button from './Button';
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -9,10 +9,11 @@ const CardDeal = () => (
         All in one investment platform for teens
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Everything you need to manage your personal finances and investments
+        Everything you need to manage your personal finances and investments
       </p>
-
-      <Button styles={`mt-10`} />
+      <a href="https://crypto-hunter.netlify.app/" target="_blank">
+        <Button styles={`mt-10`} />
+      </a>
     </div>
 
     <div className={layout.sectionImg}>
